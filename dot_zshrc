@@ -112,6 +112,7 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 eval "$(zoxide init --cmd cd zsh)"
 alias nv="nvim"
+alias snv="sudo nvim"
 alias sp="sudo pacman"
 alias chx="chmod +x"
 alias rsync-copy="rsync -avzPh"
