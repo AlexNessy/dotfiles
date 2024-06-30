@@ -124,10 +124,15 @@ alias yay="paru"
 alias please='sudo'
 alias vimdiff='nvim -d'
 
-function gitc() {
+gitc() {
   git add .
   git commit -a -m "${*:-New Changes}"
   git push
+}
+
+gitp() {
+  git fetch
+  git pull --rebase
 }
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
