@@ -123,6 +123,7 @@ alias open="xdg-open"
 alias yay="paru"
 alias please='sudo'
 alias vimdiff='nvim -d'
+alias neofetch='fastfetch'
 
 gitc() {
   git add .
@@ -139,3 +140,4 @@ gitp() {
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 alias snv="sudo nvim"
 eval "$(atuin init zsh)"
+alias db="ddcutil --display 1 setvcp 10"
